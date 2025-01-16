@@ -1,5 +1,5 @@
 print("โปรแกรมนับคำ")
-txt = "this is a book"
+txt = str(input("ประโยคที่ต้องการนับ : "))
 space = 1
 for char in txt:
     if char == ' ':
